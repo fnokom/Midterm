@@ -15,7 +15,7 @@ import java.util.Scanner;
  */
 public class ArithmeticBase 
 {
- private double x,y;
+ public double x,y;
  enum OP {PLUS,MINUS,TIMES,DIVIDE};
     double calculate(double x, double y) 
         {
@@ -37,32 +37,6 @@ public class ArithmeticBase
         }
     }
 
-    /**
-     * @return the x
-     */
-    public double getX() {
-        return x;
-    }
-
-    /**
-     * @param x the x to set
-     */
-    public void setX(double x) {
-        this.x = x;
-    }
-
-    /**
-     * @return the y
-     */
-    public double getY() {
-        return y;
-    }
-
-    /**
-     * @param y the y to set
-     */
-    public void setY(double y) {
-        this.y = y;
-    }
+    
    
 }
