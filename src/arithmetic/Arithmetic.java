@@ -13,6 +13,7 @@ import static java.time.Clock.system;
  * arithmetic operations based on user input
  * execute the code check the output
  * @author sivagamasrinivasan
+ * @modified by Ferdinand Nokom
  * 
  */
 public class Arithmetic 
@@ -26,6 +27,7 @@ public class Arithmetic
        
         ArithmeticBase r= new ArithmeticBase();
         Scanner in= new Scanner(System.in);
+        System.out.println("enter numbers: ");
         int n= in.nextInt();
         int m= in.nextInt();
         double result = r.calculate(m,n);
